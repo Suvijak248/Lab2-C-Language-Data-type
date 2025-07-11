@@ -179,7 +179,9 @@ Serial.println(myBool); // false จะถูกแสดงเป็น 0
 __คำถาม__
 
 - bool ใช้กี่ไบต์? true และ false ถูกแสดงผลเป็นค่าใดบน Serial Monitor?
-
+  ตอบ: bool ใช้ 1 ไบต์ (8 บิต)
+        true แสดงผลใน Serial Monitor เป็น 1
+        false แสดงผลใน Serial Monitor เป็น 0
 ### 5. ทดลองกับ long, long long, unsigned int, unsigned long, unsigned long long (จำนวนเต็มขนาดใหญ่/ไม่มีเครื่องหมาย) และ sizeof():
 
 __วัตถุประสงค์__ ทำความเข้าใจการใช้ชนิดข้อมูลสำหรับจำนวนเต็มที่มีขนาดใหญ่ขึ้นและแบบไม่มีเครื่องหมายบน ESP32 รวมถึงขนาด
