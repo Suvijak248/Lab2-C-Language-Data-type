@@ -232,7 +232,7 @@ Serial.println(myUnsignedLongLong);
 __คำถาม__
 
 - ชนิดข้อมูลจำนวนเต็มแต่ละชนิด (long, long long, unsigned int, unsigned long, unsigned long long) ใช้กี่ไบต์บน ESP32?
-
+- ตอบ: int, unsigned int ,long ,unsigned long ใช้4ไบต์ และlong long ,unsigned long long ใช้8ไบต์
 - บน ESP32, long มีขอบเขตเท่ากับ int หรือไม่? ชนิดข้อมูลใดที่คุณจะใช้หากต้องการเก็บค่าจำนวนเต็มบวกที่ใหญ่ที่สุด?
 
 ### 6. ทดลองกับ byte (ข้อมูล 8 บิต) และ sizeof():
