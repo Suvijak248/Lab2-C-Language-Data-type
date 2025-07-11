@@ -191,6 +191,8 @@ Serial.println(myBool); // false จะถูกแสดงเป็น 0
 __คำถาม__ 
 
 5.1 true และ false ถูกแสดงผลเป็นค่าใดบน Serial Monitor?
+ตอบ: ถ้าค่า bool เป็น true จะถูกแสดงผลบน Serial Monitor เป็นค่า 1
+     ถ้าค่า bool เป็น false จะถูกแสดงผลบน Serial Monitor เป็นค่า 0
 
 ### 6. ทดลองกับ long, long long, unsigned int, unsigned long, unsigned long long (จำนวนเต็มขนาดใหญ่/ไม่มีเครื่องหมาย)
 
